@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:patta/local_database/database.dart';
 import 'package:patta/resources/strings.dart';
 import 'package:patta/ui/common_widgets/bookmark_button.dart';
+import 'package:patta/ui/common_widgets/icons.dart';
 import 'package:patta/ui/model/PaliWordCardModel.dart';
 import 'package:wc_flutter_share/wc_flutter_share.dart';
 
@@ -23,7 +24,7 @@ class PaliWordCard extends StatelessWidget {
           child: MaterialButton(
             padding: EdgeInsets.zero,
             child: Icon(
-              Icons.share,
+              PariyattiIcons.share(),
               color: Color(0xff6d695f),
             ),
             onPressed: () async {
@@ -43,7 +44,7 @@ class PaliWordCard extends StatelessWidget {
           child: MaterialButton(
             padding: EdgeInsets.zero,
             child: Icon(
-              Icons.share,
+              PariyattiIcons.share(),
               color: Color(0xff6d695f),
             ),
             onPressed: () async {
