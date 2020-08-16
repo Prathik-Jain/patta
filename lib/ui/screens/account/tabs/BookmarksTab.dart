@@ -4,7 +4,7 @@ import 'package:patta/local_database/moor_converters.dart' as moor_converters;
 import 'package:patta/resources/strings.dart';
 import 'package:patta/ui/common_widgets/cards/PaliWordCard.dart';
 import 'package:patta/ui/common_widgets/cards/StackedInspirationCard.dart';
-import 'package:patta/ui/common_widgets/icons.dart';
+import 'package:patta/ui/common_widgets/pariyatti_icons.dart';
 import 'package:patta/ui/model/PaliWordCardModel.dart';
 import 'package:patta/ui/model/StackedInspirationCardModel.dart';
 import 'package:provider/provider.dart';
